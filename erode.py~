@@ -1,0 +1,5 @@
+from SimpleCV import Image
+img = Image('lena.jpg')
+imgBin = img.binarize()
+# Like the previous example, but erode()
+imgBin.erode().show()
